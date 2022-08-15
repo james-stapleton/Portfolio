@@ -1,0 +1,93 @@
+:root {
+    --bg-color: rgb(73, 70, 70);
+    --text-color: rgb(223, 209, 209);
+    --bar-color: blue;   
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+header {
+    width: 100%;
+    background-color: var(--bar-color);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    border: solid rgb(15, 22, 122);
+}
+
+.profile-pic {
+    display: flex;
+    height: 500px;
+    width: 50%;
+    margin-bottom: 30px;
+    background-size: auto;
+    background-image: url("../images/IMG_2965.jpg");
+    float: left;
+    margin-right: 30px;
+}
+
+
+.Main-Project h2 {
+    font-size: 36px;
+}
+
+.Main-Project h2{
+    display: flex;
+    width: 100%;
+    border-top: solid black;
+}
+
+.project1 img {
+width: 100%
+}
+
+.secondary-projects {
+   float: left;
+   width: 30%;
+}
+
+.secondary-projects img {
+    width: 70%;
+    height: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    .secondary-projects {
+        width: 100%;
+    }
+    body {
+        background-color: aliceblue;
+    }
+}
+
+.contact {
+    float: left;
+    width: 100%;
+}
